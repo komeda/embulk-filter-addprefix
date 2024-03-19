@@ -1,13 +1,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "embulk-filter-addprefix"
-  spec.version       = "0.2.0"
+  spec.version       = "0.3.0"
   spec.authors       = ["komeda"]
   spec.summary       = "Addprefix filter plugin for Embulk"
   spec.description   = "Embulk filter plugin to add arbitrary prefixes to all columns."
   spec.email         = ["komeda@hivelocity.co.jp"]
   spec.licenses      = ["MIT"]
-  spec.homepage      = "https://github.com/hivelocityinc/embulk-filter-addprefix"
+  spec.homepage      = "https://github.com/komeda/embulk-filter-addprefix"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
   spec.test_files    = spec.files.grep(%r{^(test|spec)/})
